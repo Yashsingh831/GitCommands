@@ -1,1 +1,2 @@
 git init - Initialized Git repository
+git switch -c branchname -to create new branch and move to that branch 
