@@ -2,4 +2,4 @@ git init - Initialized Git repository
 git switch -c branchname -to create new branch and move to that branch 
 git add filename - To add file to staging area
 git commit -to commit in local repo 
-
+git branch -to display all branches 
