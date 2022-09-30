@@ -1,1 +1,3 @@
 git init - Initialized Git repository
+git add filename - To add file to staging area
+git commit -to commit in local repo 
