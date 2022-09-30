@@ -3,3 +3,5 @@ git switch -c branchname -to create new branch and move to that branch
 git add filename - To add file to staging area
 git commit -to commit in local repo 
 git merge - to merge branches
+git branch -to display all branches 
+
