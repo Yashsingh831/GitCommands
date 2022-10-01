@@ -2,6 +2,25 @@ git init - Initialized Git repository
 git switch -c branchname -to create new branch and move to that branch 
 git add filename - To add file to staging area
 git commit -to commit in local repo 
-git merge - to merge branches
+git branch -to display all branches
+git checkout filename-to undo changes in a file which still is in working directory 
+git merge - to merge branches a new commit merge is created
 git branch -to display all branches 
-
+git rebase -to merge branche s in a linear way here a new history is recreated
+git diff - to compare file in working directory and local repository
+git diff --staged -to compare file in staging area and local repository
+git reset --soft -removes the commit and those changes are in staging area can be recommited 
+git reset --mixed -removes commit and brings the changes that  were made to woring area  and hence can be reachieved 
+git reset --hard -to reach a file previous version and completey deletes that commit such that, that change no longer exist in either woking are or staging area
+git log -displays all commits 
+git log --oneline --displays commit in single line 
+git diff filename-displayes changes made in file and taht file is still in working area  with respect to its previous commits
+git diff --staged - displays changes in file that is in staging area and in commited staged 
+git revert hascode - used when we need we have pushed our code to remote repo and we need to undo the changes
+git stash - when working in a branches and we have changes in working area or staging area which we do not want to commit yet ,so to avoid conflict during branch changing or changes being taken over to other
+            branch we put our changes in stash
+git stash pop  -will bring back the changes from stash to our branch
+git stash apply - will bring back changes from stash but wont remove the changes from stash they can be used again in other branch
+git stash list -to show all stashes
+git stash drop stashid -to drop a particular stash
+git syash clear - to clear entire stash 
